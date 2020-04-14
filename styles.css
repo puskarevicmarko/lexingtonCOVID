@@ -16,35 +16,35 @@
 }*/
 
 p{
-    font-family: 'Archivo', sans-serif; 
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: rgb(153, 153, 153);
 }
 
 #lineChart{
-    font-family: 'Archivo', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .jumbotron{
-    background-color:#fff;
+    background-color: #fff;
+
 }
 
 h1{
-    font-family: 'Archivo', sans-serif;
-    color: rgb(0, 80, 98);
-    font-weight: 800 !important;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color:#000;
+    font-weight: 600 !important;
 
 }
+
 .btn{
-    background-color: rgb(0, 80, 98);
-    border-top-left-radius: 22px;
-    border-top-right-radius: 22px;
-    border-bottom-right-radius: 22px;
-    border-bottom-left-radius: 22px;
+    background-color: #a6192e;
+    border-radius: 10px;
     border-width: 0px;
-    color: rgb(255, 228, 193);
+    color: #fff;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    margin-left: 8px;
+    font-size: 12px;
+    margin-left: 0px;
     padding: 12px;
     text-align: center;
     min-width: 90px;

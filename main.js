@@ -1,6 +1,6 @@
 const CHART = document.getElementById("lineChart");
 console.log(CHART);
-Chart.defaults.global.defaultFontFamily = "'Archivo', sans-serif";
+Chart.defaults.global.defaultFontFamily = "'-apple-system, BlinkMacSystemFont', sans-serif";
 let lineChart = new Chart(CHART, {
     type: 'line',
     data: {
@@ -9,14 +9,14 @@ let lineChart = new Chart(CHART, {
             {
                 label: "Lexington COVID-19 Confirmed Cases",
                 fill: true,
-                lineTension: 0.3,
-                backgroundColor: "rgba(75, 192, 192, 0.4)",
-                borderColor: "rgba(75, 192, 192, 1)",
+                lineTension: 0.2,
+                backgroundColor: "rgba(166, 25, 46, 0.4)",
+                borderColor: "rgba(166, 25, 46, 1)",
                 borderCapStyle: 'butt',
                 borderDash: [],
                 borderDashOffset: 0.0,
                 borderJoinStyle: 'miter',
-                pointBorderColor: "rgba(75,192,192,1)",
+                pointBorderColor: "rgba(166, 25, 46,1)",
                 pointBackgroundColor: "#fff",
                 pointBorderWidth: 1,
                 pointHoverRadius: 5,

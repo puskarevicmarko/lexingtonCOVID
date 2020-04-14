@@ -34,5 +34,16 @@ let lineChart = new Chart(CHART, {
                 spanGaps: true,
             }
         ]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
     }
 });

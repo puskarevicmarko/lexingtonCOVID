@@ -18,9 +18,9 @@
         <!-- Odometr includes -->
         <link rel="stylesheet" href="https://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
         <script src="https://github.hubspot.com/odometer/odometer.js"></script>
-    </head>
-    <body>
-
+    
+    
+    
         <div class="jumbotron jumbotron-fluid">
             <div class="container" style="text-align: left">
                 <h1 class="display-4"><div id="odometer" class="odometer">3</div> Lexington COVID Cases</h1>
@@ -29,9 +29,14 @@
      <!--<a class="btn btn-primary " href="https://www.lexingtonma.gov/public-health/pages/everything-you-need-know-during-covid-19-state-emergency" role="button">Learn more</a>-->
           </div>
         </div>
+    
+    </head>
+    
+    
+    <body>
 
-        <div class="container-sm" style="height:500px">
-            <canvas id="lineChart" height="auto" width="auto"></canvas>
+        <div class="container">
+            <canvas id="lineChart" style="position: relative;"></canvas>
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>

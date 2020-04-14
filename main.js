@@ -1,5 +1,14 @@
 const CHART = document.getElementById("lineChart");
 console.log(CHART);
+
+setTimeout(function(){
+    odometer.innerHTML = 139;
+}, 0);
+
+window.odometerOptions = {
+    duration: 5000 // duration in milliseconds
+  };
+
 Chart.defaults.global.defaultFontFamily = "'-apple-system, BlinkMacSystemFont', sans-serif";
 let lineChart = new Chart(CHART, {
     type: 'line',

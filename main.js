@@ -9,7 +9,7 @@ window.odometerOptions = {
     duration: 5000 // duration in milliseconds
   };
 
-Chart.defaults.global.defaultFontFamily = "'-apple-system, BlinkMacSystemFont', sans-serif";
+Chart.defaults.global.defaultFontFamily = "'-apple-system', 'BlinkMacSystemFont', sans-serif";
 let lineChart = new Chart(CHART, {
     type: 'line',
     data: {

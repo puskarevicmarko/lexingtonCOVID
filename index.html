@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Lexington COVID Tracker</title>
+        <title>Marko Puskarevic</title>
         <meta name="description" content="Historical COVID-19 confirmed cases initial-scale Lexington, MA.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -18,6 +18,20 @@
         <!-- Odometr includes -->
         <link rel="stylesheet" href="https://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
         <script src="https://github.hubspot.com/odometer/odometer.js"></script>
+          <script src="https://cdn.tailwindcss.com"></script>
+          <style>
+            body {
+                background-color: #D0422A;
+                font-family: Helvetica, Arial, sans-serif;   
+            }
+            .text-custom {
+            color: #EEECE8;
+            }
+            .text-blue {
+                color: #CCB98E;
+            }
+        </style>
+
     
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163683928-1"></script>
@@ -28,31 +42,18 @@
 
             gtag('config', 'UA-163683928-1');
         </script>
-
     
-        <div class="jumbotron jumbotron-fluid" id="top1">
-            <div class="container" style="text-align: left">
-                <h1 class="display-4"><div id="odometer" class="odometer">3</div> Lexington COVID Cases</h1>
-                <hr class="my-4">
-                <p class="lead">This website compiles <a href="https://www.lexingtonma.gov/public-health/pages/everything-you-need-know-during-covid-19-state-emergency">town updates</a> on confirmed COVID-19 cases in Lexington, MA. </p>
-     <!--<a class="btn btn-primary " href="https://www.lexingtonma.gov/public-health/pages/everything-you-need-know-during-covid-19-state-emergency" role="button">Learn more</a>--> 
-          </div>
+    <body class="h-screen flex flex-col justify-center items-center">
+        <h1 class="text-4xl font-bold mb-2 pb-2 text-custom">Marko Puskarevic</h1>
+        <p class="text-lg text-custom">New York, NY</p>
+        <div class="flex space-x-4 mt-4">
+            <!-- Email Link -->
+            <a href="mailto:mnp2130@columbia.edu" class="text-blue hover:underline">Mail</a>
+            <!-- LinkedIn Link -->
+            <a href="https://www.linkedin.com/in/puskarevic" class="text-blue hover:underline">LinkedIn</a>
+            <!-- Twitter Link -->
+            <a href="https://twitter.com/puskarevicM" class="text-blue hover:underline">Twitter</a>
         </div>
-    
-    </head>
-    
-    
-    <body>
-
-        <div class="container">
-            <canvas id="lineChart" style="position: relative;"></canvas>
-        </div>
-        <div class="container" id="two">
-            <div class="alert alert-light" id="three" role="alert">
-            This site is designed as a supplementary resource for town residents in the absence of historical data on the town website. It is not affiliated with the town.
-        </div></div>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-        <script src="main.js"></script>
     </body>
+</body>
 </html>

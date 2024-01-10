@@ -58,19 +58,6 @@ h1{
 
 }
 
-a:visited {
-    color: #a6192e !important;
-}
-
-a:active {
-    color: #460a13 !important;
-}
-
-a {
-    color: #a6192e !important;
-}
-
-
 
 .btn{
     background-color: #a6192e;

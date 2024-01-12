@@ -15,10 +15,6 @@
     display: flex;
 }*/
 
-p{
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    color: rgb(153, 153, 153);
-}
 
 .footer{
     padding-top: 50px;
@@ -51,12 +47,6 @@ canvas{
     margin-bottom: 0px !important;
 }
 
-h1{
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    color:#000;
-    font-weight: 600 !important;
-
-}
 
 
 .btn{
@@ -183,3 +173,7 @@ h1{
   .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-plaza .odometer-digit .odometer-digit-inner {
     left: 0.03em;
   }
+
+  .text-blue:hover {
+    color: #FFF; /* Change to white (#FFFFFF) */
+}

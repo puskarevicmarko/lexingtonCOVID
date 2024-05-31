@@ -1,58 +1,66 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Marko Puskarevic</title>
-        <meta name="description" content="Marko Puskarevic. New York, NY.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">       
-          <script src="https://cdn.tailwindcss.com"></script>
-          <style>
-            body {
-                background-color: black;
-                font-family: 'Besley', serif;
-            }
-            .font-custom {
-                font-family: 'Besley', serif;
-                color: black;
-            }
-            .text-blue {
-                color: #CCB98E;
-            }
-            .border-custom-border-color {
-                border-color: #CCB98E;
-            }
-        </style>
-        
-        <link rel="icon" href="favicon1.png" type="image/png">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marko Puskarevic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Besley', serif;
+        }
+        .font-custom {
+            font-family: 'Besley', serif;
+            color: black;
+        }
+        .text-blue {
+            color: #CCB98E;
+        }
     
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163683928-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-163683928-1');
-        </script>
-    
-    <body class="h-screen flex flex-col justify-center items-center p-10">
-        <div class="bg-black items-center p-3 border-t-2 border-b-2 border-custom-border-color">
-        <h1 class="text-3xl mb-2 pb-2 text-white font-custom font-bold uppercase">Marko Puskarevic</h1>
-        <p class="text-lg text-white font-custom font-light uppercase">New York, NY</p>
-        <div class="flex space-x-4 mt-4 border-t-0 border-white font-light">
-            <a href="mailto:mnp2130@columbia.edu" class="text-blue hover:underline">mail</a>
-            <a href="https://twitter.com/puskarevicM" class="text-blue hover:underline">twitter</a>
-            <a href="https://www.linkedin.com/in/puskarevic" class="text-blue hover:underline">linkedin</a>
-            <a href="https://downbad.nyc" class="text-yellow-500 text-blue hover:underline">downbad</a>
-            <a href="https://pitchslap.co" class="text-yellow-500 text-blue hover:underline">pitchslap</a>
+    </style>
+</head>
+<body class="">  
+    <div class="flex min-h-screen bg-stone-50 flex-col items-center justify-between p-4">
+        <div class="grid grid-cols-1 w-96 px-2 mt-8 center  ">
+            <div>
+                <p class="text-xl uppercase font-bold">Marko Puskarevic</p>
+                <p class="text-s uppercase mb-2">New York, NY</p>
+            </div>
+            <a href="https://pitchslap.co" target="_blank" class=" hover:bg-stone-200 hover:rounded-none p-4 flex items-center space-x-4">
+                <div class="w-12 h-12 rounded-full" style="background-image: url('pitchslaplogo.png'); background-size: cover;"></div>
+                <div>
+                    <h2 class="text-md font-bold">PitchSlap</h2>
+                    <p class="text-gray-600">Pitch deck design for startups</p>
+                </div>
+            </a>
+            <a href="https://downbad.nyc" target="_blank" class="border-t border-slate-200 hover:bg-stone-200 hover:rounded-none p-4 flex items-center space-x-4">
+                <div class="w-12 h-12 rounded-full" style="background-image: url('downbadlogo.png'); background-size: cover;"></div>
+                <div>
+                    <h2 class="text-md font-bold">DownBad</h2>
+                    <p class="text-gray-600">Meme-based nightlife discovery</p>
+                </div>
+            </a>
+            <a href="https://smokescanner.com" target="_blank" class="border-t border-slate-200 hover:bg-stone-200 hover:rounded-none p-4 flex items-center space-x-4">
+                <div class="w-12 h-12 rounded-full" style="background-image: url('smokescanner.png'); background-size: cover;"></div>
+                <div>
+                    <h2 class="text-md font-bold">SmokeScanner</h2>
+                    <p class="text-gray-600">Pay for flights with cheap cigs</p>
+                </div>
+            </a>
+            <div>
+                <a href="https://twitter.com/puskarevicM" target="_blank">
+                    <button class="mt-4 w-full text-stone-700 bg-stone-200 hover:bg-stone-800 text-stone-700 font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded">
+                        Reach Out
+                    </button>
+                </a>
+            </div>
+            
         </div>
-    </div>
-    </body>
+        </div>
+      
+    
+ 
+</div>
 </body>
 </html>
